@@ -1,0 +1,158 @@
+body{
+  font-family: "Montserrat";
+}
+#titles{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family:"Roboto Slab";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+
+  font-family:"Roboto Slab";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Roboto Slab";
+  font-size: 1.5rem;
+}
+.container-fluid{
+  padding: 3% 15% 9%;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: "Roboto Slab";
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding: 0 1rem;
+}
+
+/* downlode-button */
+
+.downlode-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
+}
+
+/* features */
+
+#features{
+  background-color: #fff;
+  padding:7% 15%;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 2rem;
+}
+.icon:hover{
+  color: gold;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align: center;
+  color: #fff;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 3rem;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 13%;
+  margin: 1% 2%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+/* call to action section */
+
+
+#cta{
+  color: #fff;
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 2rem ;
+}
+
+.cta-heading{
+  padding-top: 2rem;
+  font-family:"Roboto Slab";
+  font-size: 3rem;
+}
+
+/* media */
+
+@media (max-width:1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #titles{
+    text-align: center;
+  }
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  margin: 2rem;
+}
+.footer-img{
+  padding: 0 0.5rem;
+}
